@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.aafrikanov</groupId>
+    <artifactId>api-tests</artifactId>
+    <version>1.0</version>
+    <name>api-tests</name>
+
+    <parent>
+        <groupId>com.aafrikanov</groupId>
+        <artifactId>tests-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.aafrikanov</groupId>
+            <artifactId>tests-utils</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-path</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
