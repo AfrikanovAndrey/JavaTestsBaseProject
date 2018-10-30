@@ -12,14 +12,12 @@
 
 ```
 mvn clean test
-
 ```
 
 ##### Build report
 
 To build common report (both API & Web)
 ```
-// Common report with
 allure serve api-tests/target/allure-results web-tests/target/allure-results
 ```
 P.S. Allure command-line has been installed
