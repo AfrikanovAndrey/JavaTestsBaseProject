@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aafrikanov</groupId>
     <artifactId>tests-utils</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <name>tests-utils</name>
 
     <parent>
