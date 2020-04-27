@@ -1,4 +1,5 @@
-/.idea
+.idea
+.gradle
 **/.allure
 **/build
 *.iml

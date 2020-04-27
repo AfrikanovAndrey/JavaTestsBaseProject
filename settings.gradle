@@ -1,0 +1,4 @@
+rootProject.name = 'tests-parent'
+include(':api-tests')
+include(':web-tests')
+include(':tests-utils')
